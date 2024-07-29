@@ -4,11 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bonsai do Mosteiro</title>
+  <title>AluraBooks</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -38,7 +39,36 @@
           <a href="#" class="lista-menu__link">Como cuidar?</a>
         </li>
       </ul>
-      <img src="img/lotus.png" alt="Logo da Alurabooks" class="container__imagem">
+      <img src="img/lotus.png" alt="Logo do Bonsai do Mosteiro" class="container__imagem">
+      <h1 class="container__titulo"><b class="container__titulo--negrito">Bonsai</b>do Mosteiro</h1>
+
+      <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão" />
+        <label for="opções-menu">
+          <li class="opções__item">Categorias</li>
+        </label>
+
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Programação</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Front-end</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Infraestrutura</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Business</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Design & UX</a>
+          </li>
+        </ul>
+        <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+        <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+      </ul>
+
     </div>
     <div class="container">
       <a href="#"><img src="img/heart.png" alt="Meus favoritos" class="container__imagem"></a>
@@ -61,21 +91,21 @@
       <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide"><img src="img/IMG_3288.JPG"
-            alt="Livro sobre apache kafka e spring boot da alura books"></div>
-        <div class="swiper-slide"><img src="img/IMG_3289.JPG"
-            alt="Livro sobre liderança em design design da alura books"></div>
-        <div class="swiper-slide"><img src="img/IMG_3291.JPG" alt="Livro sobre javascript assertivo da alura books">
-        </div>
-        <div class="swiper-slide">
-          <img src="img/IMG_3292.JPG" alt="Livro Guia front end" />
-        </div>
-        <div class="swiper-slide">
-          <img src="img/IMG_3293.JPG" alt="Livro sobre portugol" />
-        </div>
-        <div class="swiper-slide">
-          <img src="img/Bonsai.jpg" alt="Livro sobre acessibilidade" />
-        </div>
+          alt="Livro sobre apache kafka e spring boot da alura books"></div>
+      <div class="swiper-slide"><img src="img/IMG_3289.JPG"
+          alt="Livro sobre liderança em design design da alura books"></div>
+      <div class="swiper-slide"><img src="img/IMG_3291.JPG" alt="Livro sobre javascript assertivo da alura books">
       </div>
+      <div class="swiper-slide">
+        <img src="img/IMG_3292.JPG" alt="Livro Guia front end" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/IMG_3293.JPG" alt="Livro sobre portugol" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/Bonsai.jpg" alt="Livro sobre acessibilidade" />
+      </div>
+    </div>
 
       <!-- If we need navigation buttons -->
       <div class="swiper-button-prev"></div>
@@ -87,9 +117,9 @@
       <div class="card__descrição">
         <div class="descrição">
           <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
-          <h2 class="descrição__titulo-livro">Bonsais de 200 anos</h2>
+          <h2 class="descrição__titulo-livro">Angular 11 e Firebase</h2>
           <p class="descrição__texto">
-            Construindo seu jardim dos sonhos.
+            Construindo uma aplicação integrada com a plataforma do Google.
           </p>
         </div>
         <img src="img/bonsai.png" class="descrição__imagem" />
@@ -119,15 +149,14 @@
       <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide"><img src="img/IMG_3288.JPG"
-            alt="Livro sobre apache kafka e spring boot da alura books"></div>
-        <div class="swiper-slide"><img src="img/IMG_3289.JPG" alt="Livro sobre liderança em design da alura books">
-        </div>
-        <div class="swiper-slide"><img src="img/IMG_3291.JPG" alt="Livro sobre javascript assertivo da alurabooks">
-        </div>
-        <div class="swiper-slide"><img src="img/IMG_3292.JPG" alt="Livro Guia front end"></div>
-        <div class="swiper-slide"><img src="img/IMG_3293.JPG" alt="Livro sobre portugol"></div>
-        <div class="swiper-slide"><img src="img/Bonsai.jpg" alt="livro sobre acessibilidade"></div>
+          alt="Livro sobre apache kafka e spring boot da alura books"></div>
+      <div class="swiper-slide"><img src="img/IMG_3289.JPG" alt="Livro sobre liderança em design da alura books">
       </div>
+      <div class="swiper-slide"><img src="img/IMG_3291.JPG" alt="Livro sobre javascript assertivo da alurabooks">
+      </div>
+      <div class="swiper-slide"><img src="img/IMG_3292.JPG" alt="Livro Guia front end"></div>
+      <div class="swiper-slide"><img src="img/IMG_3293.JPG" alt="Livro sobre portugol"></div>
+      <div class="swiper-slide"><img src="img/Bonsai.jpg" alt="livro sobre acessibilidade"></div>
 
       <!-- If we need navigation buttons -->
       <div class="swiper-button-prev"></div>
@@ -161,49 +190,49 @@
       </div>
     </div>
 
-
-
   </section>
 
   <section class="tópicos">
     <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
     <ul class="tópicos__lista">
-      <li class="tópicos__item"><a href="#" class="tópicos__link">Bonsai frutifero</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Android</a></li>
       <li class="tópicos__item">
-        <a href="#" class="tópicos__link">Bonsai de pinheiro</a>
+        <a href="#" class="tópicos__link">Marketing Digital</a>
       </li>
       <li class="tópicos__item">
-        <a href="#" class="tópicos__link">Mini arvorizinhas</a>
+        <a href="#" class="tópicos__link">Agile</a>
       </li>
       <li class="tópicos__item">
-        <a href="#" class="tópicos__link">Vasos para bonsai</a>
+        <a href="#" class="tópicos__link">Startups</a>
       </li>
       <li class="tópicos__item">
-        <a href="#" class="tópicos__link">técnicas de bonsai</a>
+        <a href="#" class="tópicos__link">HTML & CSS</a>
       </li>
       <li class="tópicos__item">
-        <a href="#" class="tópicos__link">Bonsai de cerejeira</a>
+        <a href="#" class="tópicos__link">Python</a>
       </li>
       <li class="tópicos__item">
-        <a href="#" class="tópicos__link">Bonsai verdadeiro</a>
+        <a href="#" class="tópicos__link">OO</a>
       </li>
       <li class="tópicos__item">
-        <a href="#" class="tópicos__link">Mimi bonsai</a>
+        <a href="#" class="tópicos__link">Java</a>
       </li>
     </ul>
   </section>
 
   <section class="contato">
     <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-    <p class="contato__texto">Novos bonsais, novidades, promoções e outros.</p>
-    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email"/>
+    <p class="contato__texto">
+      Atualizações de e-books, novos livros, promoções e outros.
+    </p>
+    <input type="email" placeholder="        Cadastre seu e-mail" class="contato__email" />
   </section>
 
   <hr />
 
-<footer class="rodapé">
-  <h2 class="rodapé__titulo">Grupo Bonsai do Mosteiro</h2>
-</footer>
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Alura</h2>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
