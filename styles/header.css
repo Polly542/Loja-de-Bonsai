@@ -113,7 +113,6 @@
     .opções__botão {
         display: none;
     }
-
 }
 
 .container__texto {
@@ -121,7 +120,6 @@
 }
 
 @media screen and (min-width: 1728px) {
-
     .container__link {
       display: flex;
       align-items: center;
@@ -136,5 +134,4 @@
     .container__texto {
       display: block;
     }
-
-  }
+}

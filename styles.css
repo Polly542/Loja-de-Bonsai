@@ -18,6 +18,13 @@
     --cinza-claro: #858585;
 }
 
+.container_imagem {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);

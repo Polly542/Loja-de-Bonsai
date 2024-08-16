@@ -12,12 +12,10 @@
   width: 100%;
 }
 
-
 .swiper-button-prev,
 .swiper-button-next {
   display: none;
 }
-
 
 .swiper-pagination {
   position: initial;
@@ -47,7 +45,6 @@
 .botões {
   display: flex;
 }
-
 
 .descrição__titulo {
   color: var(--laranja);
@@ -104,29 +101,28 @@
 
 @media screen and (min-width: 1728px) {
   .carrossel__container {
-      display: flex;
-      margin: 0 20vw 3em 20vw;
+    display: flex;
+    margin: 0 20vw 3em 20vw;
   }
 
   .swiper-pagination {
-      margin: 1em 0;
+    margin: 1em 0;
   }
 
   .swiper {
-      width: 50%;
+    width: 50%;
   }
 
   .descrição__titulo {
-      font-size: 32px;
+    font-size: 32px;
   }
 
   .descrição__texto {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   .card {
-      width: 60%;
-      margin-left: 3em;
+    width: 60%;
+    margin-left: 3em;
   }
-
 }

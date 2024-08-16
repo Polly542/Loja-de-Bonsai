@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AluraBooks</title>
+  <title>Bonsai do Mosteiro</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +24,9 @@
       <ul class="lista-menu">
         <li class="lista-menu__titulo">Categorias</li>
         <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Promoções!</a>
+        </li>
+        <li class="lista-menu__item">
           <a href="#" class="lista-menu__link">Frutifero</a>
         </li>
         <li class="lista-menu__item">
@@ -39,8 +42,8 @@
           <a href="#" class="lista-menu__link">Como cuidar?</a>
         </li>
       </ul>
-      <img src="img/lotus.png" alt="Logo do Bonsai do Mosteiro" class="container__imagem">
-      <h1 class="container__titulo"><b class="container__titulo--negrito">Bonsai </b>do Mosteiro</h1>
+      <img src="img/lotus.png" width="50" height="50" alt="Logo do Bonsai do Mosteiro" class="container__imagem">
+      <h1 class="container__titulo"><b class="container__titulo--negrito">Bonsai do Mosteiro</b></h1>
 
       <ul class="opções">
         <input type="checkbox" id="opções-menu" class="opções__botão" />
@@ -50,30 +53,33 @@
 
         <ul class="lista-menu">
           <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Programação</a>
+            <a href="#" class="lista-menu__link">Promoções!</a>
           </li>
           <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Front-end</a>
+            <a href="#" class="lista-menu__link">Frutifero</a>
           </li>
           <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Infraestrutura</a>
+            <a href="#" class="lista-menu__link">Não Frutifero</a>
           </li>
           <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Business</a>
+            <a href="#" class="lista-menu__link">Ferramentas</a>
           </li>
           <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Design & UX</a>
+            <a href="#" class="lista-menu__link">Vasos</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Como cuidar?</a>
           </li>
         </ul>
         <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
-        <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+        <li class="opções__item"><a href="#" class="opções__link">Meu jardim</a></li>
       </ul>
 
     </div>
     <div class="container">
-      <a href="#"><img src="img/heart.png" alt="Meus favoritos" class="container__imagem"></a>
-      <a href="#"><img src="img/shopping-bag.png" alt="Carrinhos de compras" class="container__imagem"></a>
-      <a href="#"><img src="img/user.png" alt="Meu perfil" class="container__imagem"></a>
+      <a href="#"><img src="img/heart.png" width="50" height="50" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
+      <a href="#"><img src="img/shopping-bag.png" width="50" height="50" alt="Carrinhos de compras" class="container__imagem"></a>
+      <a href="#"><img src="img/user.png" width="50" height="50" alt="Meu perfil" class="container__imagem"></a>
     </div>
   </header>
 
@@ -87,24 +93,23 @@
     <h2 class="carrossel__titulo">Novos lançamentos</h2>
     <!-- Slider main container -->
     <div class="swiper">
+
+      <div class="swiper-pagination"></div>
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide"><img src="img/IMG_3288.JPG"
-          alt="Livro sobre apache kafka e spring boot da alura books"></div>
-      <div class="swiper-slide"><img src="img/IMG_3289.JPG"
-          alt="Livro sobre liderança em design design da alura books"></div>
-      <div class="swiper-slide"><img src="img/IMG_3291.JPG" alt="Livro sobre javascript assertivo da alura books">
-      </div>
-      <div class="swiper-slide">
-        <img src="img/IMG_3292.JPG" alt="Livro Guia front end" />
-      </div>
-      <div class="swiper-slide">
-        <img src="img/IMG_3293.JPG" alt="Livro sobre portugol" />
-      </div>
-      <div class="swiper-slide">
-        <img src="img/Bonsai.jpg" alt="Livro sobre acessibilidade" />
-      </div>
+          alt="Pinheiro criptoméria japonesa de 200 anos"></div>
+        <div class="swiper-slide"><img src="img/IMG_3289.JPG"
+          alt="Bosque de pinheiro"></div>
+        <div class="swiper-slide"><img src="img/IMG_3291.JPG"
+          alt="Azelea"></div>
+        <div class="swiper-slide"><img src="img/IMG_3292.JPG"
+          alt="Pinheiro criptoméria japonesa de 50 anos" /></div>
+        <div class="swiper-slide"><img src="img/IMG_3295.jpg"
+          alt="Pinheiro criptoméria japonesa em forma de cascata" /></div>
+        <div class="swiper-slide"><img src="img/IMG_3296.jpg"
+          alt="Pinheiro com tronco queimado por raio" /></div>
     </div>
 
       <!-- If we need navigation buttons -->
@@ -117,20 +122,18 @@
       <div class="card__descrição">
         <div class="descrição">
           <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
-          <h2 class="descrição__titulo-livro">Bonsais de 200 anos</h2>
-          <p class="descrição__texto">
-            Construindo seu jardim dos sonhos.
-          </p>
+          <h2 class="descrição__titulo-livro">Bonsais de japanese blue spruce</h2>
+          <p class="descrição__texto">Construindo seu jardim dos sonhos.</p>
         </div>
-        <img src="img/bonsai.png" class="descrição__imagem" />
+        <img src="img/IMG_3644.jpg" width="400" height="450" class="descrição__imagem" />
       </div>
       <div class="card__botões">
         <ul class="botões">
           <li class="botões__item">
-            <img src="img/heart.png" alt="Favoritar livro" />
+            <img src="img/heart.png" width="50" height="50" alt="Favoritar bonsai" />
           </li>
           <li class="botões__item">
-            <img src="img/shopping-bag.png" alt="Adicionar no carrinho de compras" />
+            <img src="img/shopping-bag.png" width="50" height="50" alt="Adicionar no carrinho de compras" />
           </li>
         </ul>
         <a href="#" class="botões__ancora">Saiba mais</a>
@@ -140,7 +143,7 @@
   </section>
 
   <section class=”carrossel”>
-    <h2 class="carrossel__titulo">Mais vendidos</h2>
+    <h2 class="carrossel__titulo">Mini bonsais</h2>
     <div class="swiper">
       <!-- Additional required wrapper -->
       <!-- If we need pagination -->
@@ -148,15 +151,19 @@
 
       <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide"><img src="img/IMG_3288.JPG"
+        <div class="swiper-slide"><img src="img/IMG_3300.jpg"
           alt="Livro sobre apache kafka e spring boot da alura books"></div>
-      <div class="swiper-slide"><img src="img/IMG_3289.JPG" alt="Livro sobre liderança em design da alura books">
+        <div class="swiper-slide"><img src="img/IMG_3326.jpg"
+          alt="Livro sobre liderança em design da alura books"></div>
+        <div class="swiper-slide"><img src="img/IMG_3307.jpg"
+          alt="Livro sobre javascript assertivo da alurabooks"></div>
+        <div class="swiper-slide"><img src="img/IMG_3329.jpg"
+          alt="Livro Guia front end"></div>
+        <div class="swiper-slide"><img src="img/IMG_3333.jpg"
+          alt="Livro sobre portugol"></div>
+        <div class="swiper-slide"><img src="img/IMG_3303.jpg"
+          alt="livro sobre acessibilidade"></div>
       </div>
-      <div class="swiper-slide"><img src="img/IMG_3291.JPG" alt="Livro sobre javascript assertivo da alurabooks">
-      </div>
-      <div class="swiper-slide"><img src="img/IMG_3292.JPG" alt="Livro Guia front end"></div>
-      <div class="swiper-slide"><img src="img/IMG_3293.JPG" alt="Livro sobre portugol"></div>
-      <div class="swiper-slide"><img src="img/Bonsai.jpg" alt="livro sobre acessibilidade"></div>
 
       <!-- If we need navigation buttons -->
       <div class="swiper-button-prev"></div>
@@ -168,34 +175,34 @@
       <div class="card__descrição">
         <!-- 1º coluna -->
         <div class="descrição">
-          <img src="img/stars.png" alt="Avaliação 5 estrelas">
+          <img src="img/stars.png" width="50" height="50" alt="Avaliação 5 estrelas">
           <h3 class="descrição__titulo">Em destaque</h3>
           <h2 class="descrição__titulo-livro">Bonsai de 800 anos</h2>
-          <p class="descrição__texto">Já foi da família real do Japão em 1200, mas também pertenceu aos monges Shaolin na China.
-          </p>
+          <p class="descrição__texto">Já foi da família real do Japão em 1200, mas também pertenceu aos monges Shaolin na China.</p>
         </div>
         <!-- 2º coluna -->
-        <img src="img/IMG_3290.JPG" class="descrição__imagem">
+        <img src="img/IMG_3290.JPG" width="400" height="450" class="descrição__imagem">
       </div>
 
       <!-- 2º linha -->
       <div class="card__botões">
         <!-- 1º coluna -->
         <ul class="botões">
-          <li class="botões__item"><img src="img/heart.png" alt="Favoritar livro"></li>
-          <li class="botões__item"><img src="img/shopping-bag.png" alt="Adicionar no carrinho de compras"></li>
+          <li class="botões__item"><img src="img/heart.png" width="50" height="50" alt="Favoritar bonsai"></li>
+          <li class="botões__item"><img src="img/shopping-bag.png" width="50" height="50" alt="Adicionar no carrinho de compras"></li>
         </ul>
         <!-- 2º coluna -->
         <a href="#" class="botões__ancora">Saiba mais</a>
       </div>
     </div>
-
   </section>
 
   <section class="tópicos">
     <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
     <ul class="tópicos__lista">
-      <li class="tópicos__item"><a href="#" class="tópicos__link">Bonsai frutifero</a></li>
+      <li class="tópicos__item">
+        <a href="#" width="50" height="50" class="tópicos__link">Bonsai frutifero</a>
+      </li>
       <li class="tópicos__item">
         <a href="#" class="tópicos__link">Bonsai de pinheiro</a>
       </li>
@@ -206,7 +213,7 @@
         <a href="#" class="tópicos__link">Vasos para bonsai</a>
       </li>
       <li class="tópicos__item">
-        <a href="#" class="tópicos__link">técnicas de bonsai</a>
+        <a href="#" class="tópicos__link">Técnicas de bonsai</a>
       </li>
       <li class="tópicos__item">
         <a href="#" class="tópicos__link">Bonsai de cerejeira</a>
@@ -215,23 +222,98 @@
         <a href="#" class="tópicos__link">Bonsai verdadeiro</a>
       </li>
       <li class="tópicos__item">
-        <a href="#" class="tópicos__link">Mimi bonsai</a>
+        <a href="#" class="tópicos__link">Mini bonsai</a>
       </li>
     </ul>
   </section>
 
   <section class="contato">
-    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-    <p class="contato__texto">
-      Novos bonsais, novidades, promoções e outros.
-    </p>
-    <input type="email" placeholder="        Cadastre seu e-mail" class="contato__email" />
+    <div class="contato__descrição">
+      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+      <p class="contato__texto">Novos bonsais, novidades, promoções e outros.</p>
+    </div>
+    <input type="email" placeholder="        Cadastre seu e-mail"  class="contato__email" />
   </section>
 
-  <hr />
+  <hr/>
 
   <footer class="rodapé">
     <h2 class="rodapé__titulo">Grupo Bonsai do Mosteiro</h2>
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo"></li>
+      <li class="lista-rodapé__item">
+        <img src="img/2.png" width="60" height="60" alt="Logo da Bonzai do Sol Nascente" />
+        <a href="#" class="lista-rodapé__link">Bonzai do Sol Nascente</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/3.png" width="60" height="60" alt="Logo da Ocean" />
+        <a href="#" class="lista-rodapé__link">Ocean</a>
+      </li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Lojas fisicas</li>
+      <li class="lista-rodapé__item">
+        <img src="img/6.png" width="60" height="60" alt="Logo da Lotus Branco" />
+        <a href="#" class="lista-rodapé__link">Lotus Branco</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/7.png" width="60" height="60" alt="Logo da Bonzai Bonsei" />
+        <a href="#" class="lista-rodapé__link">Bonzai Bonsei</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/11.png" width="60" height="60" alt="Logo da Sakura" />
+        <a href="#" class="lista-rodapé__link">Sakura</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/4.png" width="60" height="60" alt="Logo da Kyoto" />
+        <a href="#" class="lista-rodapé__link">Kyoto</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/15.png" width="60" height="60" alt="Logo da Samurai Real" />
+        <a href="#" class="lista-rodapé__link">Samurai Real</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/8.png" width="60" height="60" alt="Logo da Maytu Picho" />
+        <a href="#" class="lista-rodapé__link">Maytu Picho</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/16.png" width="60" height="60" alt="Logo da Mimi Bonzai" />
+        <a href="#" class="lista-rodapé__link">Mimi Bonzai</a>
+      </li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Plataformas de aulas para bonsais</li>
+      <li class="lista-rodapé__item">
+        <img src="img/14.png" width="60" height="60" alt="Logo do Bonsai Selvagem" />
+        <a href="#" class="lista-rodapé__link">Bonsai Selvagem</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/13.png" width="60" height="60" alt="Logo do Flor de Japa" />
+        <a href="#" class="lista-rodapé__link">Flor de Japa</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/12.png" width="60" height="60" alt="Logo do Peyinxe Yang" />
+        <a href="#" class="lista-rodapé__link">Peyinxe Yang</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/10.png" width="60" height="60" alt="Logo do Monte Virei à Oeste" />
+        <a href="#" class="lista-rodapé__link">Monte Virei à Oeste</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/5.png" width="60" height="60" alt="Logo do Din Jago" />
+        <a href="#" class="lista-rodapé__link">Din Jago</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/9.png" width="60" height="60" alt="Logo do Bambei" />
+        <a href="#" class="lista-rodapé__link">Bambei</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/1.png" width="60" height="60" alt="Logo do Dragoi" />
+        <a href="#" class="lista-rodapé__link">Dragoi</a>
+      </li>
+    </ul>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -246,5 +328,4 @@
     });
   </script>
 </body>
-
 </html>
